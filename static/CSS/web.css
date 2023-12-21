@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    /* --font-size: 1.6rem; */
+    --primary-text-colour: black;
+    --alternative-text-colour: white;
+    --bg-colour: whitesmoke;
+    --main-width: 100%;
+}
 html{
     font-size: 62.5%;
 }
@@ -11,20 +18,14 @@ body {
     width: 100vw;
     height: 1520px;
 }
-:root {
-    --font-size: 1.6rem;
-    --primary-text-colour: black;
-    --alternative-text-colour: white;
-    --bg-colour: whitesmoke;
-    --main-width: inherit;
 
-}
 .header{
     width: 100%;
     height: 8rem;
     background-color: white;
-    position: relative;
+    position: fixed;
     border: 1px solid white;
+    z-index: 1;
 }
 nav .nav_logo p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -331,4 +332,22 @@ footer p{
     position: absolute;
     top: 310px;
     left: 35px;
+}
+
+/* fixed box section */
+.fixed_box_container{
+    width: 200px;
+    height: 300px;
+    /* background-color: red; */
+    position: fixed;
+    float: right;
+    top: 100px;
+    right: 150px;
+    z-index: 1;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+#video{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
