@@ -345,7 +345,7 @@ footer p{
     right: 150px;
     z-index: 1;
     border-radius: 15px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 #video{
     border-top-right-radius: 15px;
