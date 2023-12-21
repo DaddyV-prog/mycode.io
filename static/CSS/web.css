@@ -84,7 +84,7 @@ a:link{
     color: black;
 }
 a:visited{
-    color: red;
+    color: black;
 }
 a:hover{
     text-decoration: underline;
@@ -406,4 +406,80 @@ footer p{
     to{
         rotate: 360deg;
     }
+}
+
+
+/* course page  */
+.row1,.row2{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    /* margin-right: 10px; */
+}
+.courses_intro{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: small;
+    color: rgb(138, 138, 138);
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.row1_item, .row2_item{
+    height: 300px;
+    width: 200px;
+    /* background-color: black; */
+    position: relative;
+    left: 50px;
+    top: 150px;
+    /* border-top-left-radius: 0; */
+    border-radius: 50px 0 0 50px;
+    border: 0.1px solid black;
+    opacity: 1;
+    background-color: white;
+}
+.frontend{
+    /* margin-right: 20px; */
+    border-radius: 0 50px 50px 0;
+}
+.row2_item{
+    top: 200px;
+    border-radius: 0 50px 50px 0;
+}
+.row2 .frontend{
+    border-radius: 50px 0 0 50px;
+}
+/* .fullstack{
+    margin-right: 100px;
+} */
+#backend, #frontend, #fullstack,#bootcamp, #interface_design,#ux_design{
+    height: 150px;
+    width: 200px;
+    border-radius: 50px 0 0 0;
+    position: absolute;
+    /* top: 50px; */
+}
+#frontend,#bootcamp,#ux_design{
+    border-radius: 0 50px 0 0;
+}
+.info1, .info2, .info3, .info4, .info5, .info6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    top: 180px;
+    left: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.info1 span, .info2 span, .info3 span, .info4 span, .info5 span, .info6 span{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    cursor: pointer;
+}
+.flip{
+    position: relative;
+    max-width: 50px;
 }
