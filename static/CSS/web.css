@@ -338,7 +338,7 @@ footer p{
 .fixed_box_container{
     width: 200px;
     height: 300px;
-    /* background-color: red; */
+    background-color: whitesmoke;
     position: fixed;
     float: right;
     top: 100px;
@@ -350,4 +350,60 @@ footer p{
 #video{
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+}
+.intro{
+    font-weight: bold;
+    /* font-style: oblique; */
+    color: black;
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    
+}
+.duration, .days, .time{
+    font-weight: lighter;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+.days{
+    top: 175px;
+}
+.time{
+    top: 200px;
+}
+.submit{
+    height: 30px;
+    width: 90%;
+    background-color: red;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.animation{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50% 0;
+    /* border: 1px solid black; */
+    /* z-index: 1; */
+    position: relative;
+    /* top: 3000px; */
+    margin: auto;
+    margin-top: 120px;
+    /* border-top-left-radius: 0;
+    border-bottom-right-radius: 0; */
+    animation: rotate 3s linear  infinite alternate-reverse ;
+}
+@keyframes rotate {
+    from {
+        rotate:0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
 }
