@@ -481,5 +481,92 @@ footer p{
 }
 .flip{
     position: relative;
-    max-width: 50px;
+    max-width: 500px;
+    width: 100%;
+    
+}
+.flip_item{
+    width: 30px;
+    height: 30px;
+    /* background-color: white; */
+    border-radius: 50px;
+    position: absolute;
+    top: 300px;
+    /* left: 500px; */
+    display: flex;
+    margin-left: 500px; 
+}
+.flip_item_1{
+    /* margin-right: 0px; */
+    left: 0px;
+    background-color: red;
+    animation: lefts 3s linear  infinite  ;
+    /* position: absolute; */
+
+}
+.flip_item_2{
+    right: 0px;
+    background-color: white;
+    animation: move_rights 3s linear  infinite  ;
+    /* position: absolute; */
+}
+@keyframes move_rights {
+    0% {
+        left: 0rem;
+        z-index: 20;
+      }
+
+      25% {
+        left: 1.5rem;
+        z-index: 20;
+      }
+
+      50% {
+        left: 3rem;
+        z-index: 20;
+      }
+      51% {
+        z-index: 10;
+      }
+
+      75% {
+        left: 1.5rem;
+        z-index: 10;
+      }
+
+      100% {
+        left: 0rem;
+        z-index: 10;
+      }
+}
+
+@keyframes lefts {
+    0% {
+        right: 0rem;
+        z-index: 10;
+      }
+
+      25% {
+        right: 1.5rem;
+        z-index: 10;
+      }
+
+      50% {
+        right: 3rem;
+        z-index: 10;
+      }
+      51% {
+        z-index: 20;
+      }
+
+      75% {
+        right: 1.5rem;
+        z-index: 20;
+      }
+
+      100% {
+        right: 0rem;
+        z-index: 20;
+      }
+    
 }
