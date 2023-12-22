@@ -653,10 +653,15 @@ footer p{
 this is ok */
 
 /* tablet mode  */
-/* @media screen and (max-width:768px) {
-    
+@media screen and (max-width:768px) {
+    .fixed_box_container{
+        right: 50px;
+    }
+    .download{
+        left: 310px;
+    }
 }
-this is also ok */
+
 
 /* mobile phone */
 @media screen and (max-width:425px) {
