@@ -682,3 +682,38 @@ this is also ok */
         visibility: hidden;
     }
 }
+
+/* mobile responsiveness for 320px */
+@media screen and (max-width:320px) {
+    .container{
+        width: 165%;
+    }
+    /* .hero_text2{
+        left: 20px;
+    }
+    .one{
+        left: 200px;
+    }
+    .two{
+        left: 250px;
+    } */
+    .fixed_box_container{
+        right: 50px;
+    }
+    aside .aside_container{
+        width: 165%;
+    }
+    .student1{
+        width: 400px;
+        left: 100px;
+    }
+    .student1 em{
+        visibility: visible;
+    }
+    .student2{
+        visibility: hidden;
+    }
+    .footer{
+        width: 165%;
+    }
+}
