@@ -572,6 +572,81 @@ footer p{
 }
 /* MEDIA QUERY FOR HOMEPAGE */
 /* mobile responsiveness */
+@media screen and (max-width:1440px) {
+    nav .nav_logo p{
+        font-size: 40px;
+        left: 200px;
+    }
+    span{
+        left: 70px;
+    }
+    nav ul{
+        left: 300px;
+    }
+    nav ul li a{
+        font-size: 30px ;
+        text-transform: uppercase;
+        padding: 20px 20px;
+        /* word-spacing: 100px; */
+    }
+    nav .nav_search form input{
+        right: 250px;
+    }
+    header .selection select{
+        top: 20px;
+        right: 100px;
+        font-size: large;
+        width: 50px;
+
+    }
+    .hero{
+        font-size: xx-large;
+        left: 90px;
+    }
+    .hero_text1{
+        top: 95px;
+        left: 50px;
+        line-height: 17px;
+    }
+    .fixed_box_container{
+        width: 300px;
+        height: 400px;
+        right: 300px;
+    }
+    .intro{
+        font-size: large;
+    }
+    .duration, .day,.time{
+        font-size: large;
+    }
+    .duration{
+        top: 165px;
+    }
+    .days{
+        top: 200px;
+        font-size: large;
+    }
+    .time{
+        top: 240px;
+    }
+    .animation{
+        margin-top: 190px;
+    }
+    #video{
+        width: 300px;
+    }
+    .student_experience{
+        top: 730px;
+        font-size: 40px;
+    }
+    .student1{
+        left: 100px;
+    }
+    .student2{
+        left: 750px;
+    }
+    /* a:link */
+}
 /* @media screen and (max-width:1024px) {
     
 } 
