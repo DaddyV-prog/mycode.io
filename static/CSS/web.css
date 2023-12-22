@@ -572,7 +572,7 @@ footer p{
 }
 /* MEDIA QUERY FOR HOMEPAGE */
 /* mobile responsiveness */
-@media screen and (max-width:1440px) {
+/* @media screen and (max-width:1440px) {
     nav .nav_logo p{
         font-size: 40px;
         left: 200px;
@@ -587,7 +587,7 @@ footer p{
         font-size: 30px ;
         text-transform: uppercase;
         padding: 20px 20px;
-        /* word-spacing: 100px; */
+        word-spacing: 100px;
     }
     nav .nav_search form input{
         right: 250px;
@@ -644,9 +644,9 @@ footer p{
     }
     .student2{
         left: 750px;
-    }
+    } */
     /* a:link */
-}
+
 /* @media screen and (max-width:1024px) {
     
 } 
