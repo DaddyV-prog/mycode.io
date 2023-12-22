@@ -657,4 +657,28 @@ this is also ok */
         width: 155%;
         top:1050px
     }
+    .foot_logo p span{
+        left: 60px;
+    }
+}
+
+/* mobile responsiveness for 375px */
+@media screen and (max-width:375px) {
+    nav ul {
+        left: 220px;
+    }
+
+    .student_experience{
+        font-size: 40px;
+        top: 730px;
+    }
+    .student1{
+        left: 10px;
+    }
+    .student2{
+        left: 320px;
+    }
+    header .selection select{
+        visibility: hidden;
+    }
 }
