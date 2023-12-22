@@ -481,7 +481,7 @@ footer p{
 }
 .flip{
     position: relative;
-    max-width: 500px;
+    max-width: 6rem;
     width: 100%;
     
 }
@@ -569,4 +569,44 @@ footer p{
         z-index: 20;
       }
     
+}
+/* MEDIA QUERY FOR HOMEPAGE */
+/* mobile responsiveness */
+/* @media screen and (max-width:1024px) {
+    
+} 
+this is ok */
+
+/* tablet mode  */
+/* @media screen and (max-width:768px) {
+    
+}
+this is also ok */
+
+/* mobile phone */
+@media screen and (max-width:425px) {
+
+    .hero_text1 {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .hero_text2{
+        font-size: large;
+    }
+    .fixed_box_container {
+        right: 80px;
+        /* visibility: hidden; */
+    }
+    .container{
+        width: 100%;
+    }
+    .download{
+        visibility: hidden;
+    }
+    aside .aside_container{
+        /* width: 100%; */
+        width: 425px;
+        background-color: black;
+        /* position: ; */
+    }
 }
