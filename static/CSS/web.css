@@ -601,12 +601,9 @@ this is also ok */
         /* border: 2px solid black; */
     }
     nav .nav_search form input{
-        top: 25px;
-        right: 70px;
-    }
-    header .selection select{
         visibility: hidden;
     }
+    
     /* nav ul li{
         font-size: x-large;
     } */
@@ -619,11 +616,15 @@ this is also ok */
         font-size: large;
     }
     .fixed_box_container {
-        top: 200px;
+        top: 220px;
         right: 80px;
         position: fixed;
         /* z-index: 1; */
         /* visibility: hidden; */
+    }
+    .student_experience{
+        top: 750px;
+        font-size: 30px;
     }
     .container{
         width: 155%;
@@ -634,8 +635,26 @@ this is also ok */
     }
     aside .aside_container{
         /* width: 100%; */
-        width: 425px;
+        width: 155%;
         background-color: black;
         /* position: ; */
+    }
+    .student1,.student2{
+        width: 300px;
+    }
+    .student1 span, .student2 span{
+        font-size: small;
+        top: 25px;
+        left: 155px;
+    }
+    .student2, #student2{
+        left: 370px;
+    }
+    .student1 em,.student2 em{
+        visibility: hidden;
+    }
+    .footer{
+        width: 155%;
+        top:1050px
     }
 }
